@@ -1,10 +1,9 @@
-
 ## Variable importance experiments on the Covid-19 patient orientation algorithm
 
-
+<img style="float: right;" src="data_n_figures/large_piechart.png" width="200">
 Python experiments on **global sensitivity/variable importances methods** (Sobol Indices, Shapley Effects and shap) on the **French Covid-19 patient orientation** algorithm.
 
-Blog article for context and discussion: [datajms](https://datajms.com/post/covid_variable_importance_shapley/).
+Blog article for context and discussion: [Breaking down factors of Covid-19 orientation algorithm by importance](https://datajms.com/post/covid_variable_importance_shapley/).
 
 
 ### Quick start
@@ -18,6 +17,7 @@ Once installed, activate the python environment
 Then, you can re-run each experiment (independent scripts):
 
 ```bash
+cd experiments/
 python my_logger.py # Delete csv data and set-up logger
 python run_sobol.py # Run Sobol ~ 20min
 python run_shapley_effects.py # Run Shapley Effects ~ 24h
@@ -29,13 +29,15 @@ You can rebuild figures from csv data:
 ```bash
 python build_figures.py
 ```
+Here are the results! Details in the [blog post](https://datajms.com/post/covid_variable_importance_shapley/).
+
+![](data_n_figures/results_importance.png)
 
 ### Installation
 
 Instructions to re-run experiments for python ≥3.6
 
-
-**Initial set-up** (only once): It creates a python3.6 environment and install requirements.txt with pip.
+**Initial set-up** (only once): It creates a python3.6 environment and install requirements with pip.
 
 ```bash
 . init
