@@ -24,9 +24,3 @@ setuptools>=41.0.0
 tensorflow-probability==0.9.0
 gast==0.2.2
 gpflow
-
-### Manual steps for shapley-effects
-# 1. Run 'pip install git+https://github.com/scikit-garden/scikit-garden'
-# 2. Clone the repo https://gitlab.com/CEMRACS17/shapley-effects.git (in an
-# other directory)
-# 3. Run 'python setup.py install' from the directory you have just cloned.

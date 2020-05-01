@@ -13,7 +13,10 @@ Once installed, activate the python environment
 . activate
 ```
 
-Then, you can re-run each experiment (independent scripts):
+Then, you can re-run each experiment (independent scripts).
+Each script writes into data_n_figures/all_experiments_results.csv on the fly.
+You can run several process in parallel, it will not mess up the writing of
+the file.
 
 ```bash
 cd experiments/
@@ -23,7 +26,7 @@ python run_shapley_effects.py # Run Shapley Effects ~ 24h
 python run_kernelshap.py # Run shap ~24h
 ```
 
-You can rebuild figures from csv data:
+You can rebuild figures from the csv data:
 
 ```bash
 python build_figures.py
@@ -41,8 +44,6 @@ Instructions to re-run experiments for python ≥3.6
 ```bash
 . init
 ```
-
-**Manual installs**: *shapley-effects* require 3 manual steps, which are listed at this end of [requirements.txt](requirements.txt): do it!
 
 ### Resources
 **Python packages**:
