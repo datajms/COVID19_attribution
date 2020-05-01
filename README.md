@@ -1,6 +1,6 @@
 ## Variable importance experiments on the Covid-19 patient orientation algorithm
 
-<img style="float: right;" src="data_n_figures/large_piechart.png" width="200">
+<img style="float: right !important;" src="data_n_figures/large_piechart.png" width="200">
 Python experiments on **global sensitivity/variable importances methods** (Sobol Indices, Shapley Effects and shap) on the **French Covid-19 patient orientation** algorithm.
 
 Blog article for context and discussion: [Breaking down factors of Covid-19 orientation algorithm by importance](https://datajms.com/post/covid_variable_importance_shapley/).
