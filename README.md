@@ -1,7 +1,6 @@
 ## Variable importance experiments on the Covid-19 patient orientation algorithm
 
-<img style="float: right !important;" src="data_n_figures/large_piechart.png" width="200">
-Python experiments on **global sensitivity/variable importances methods** (Sobol Indices, Shapley Effects and shap) on the **French Covid-19 patient orientation** algorithm.
+Python experiments on **global sensitivity and variable importances methods** (Sobol Indices, Shapley Effects and shap) on the **French Covid-19 patient orientation** algorithm.
 
 Blog article for context and discussion: [Breaking down factors of Covid-19 orientation algorithm by importance](https://datajms.com/post/covid_variable_importance_shapley/).
 
@@ -46,14 +45,14 @@ Instructions to re-run experiments for python ≥3.6
 **Manual installs**: *shapley-effects* require 3 manual steps, which are listed at this end of [requirements.txt](requirements.txt): do it!
 
 ### Resources
-Python packages:
+**Python packages**:
 
 - [SALib](https://github.com/SALib/SALib): Herman, J., & Usher, W. (2017). SALib: an open-source Python library for sensitivity analysis. Journal of Open Source Software, 2(9), 97.
 - [shapley-effects](https://gitlab.com/CEMRACS17/shapley-effects): Benoumechiara, N., & Elie-Dit-Cosaque, K. (2017), developed at the CEMRACS 2017 with the help of Iooss, B., Sueur, R., Maume-Deschamps, V., & Prieur, C.
 - [shap](https://github.com/slundberg/shap):
 Lundberg, S. M., & Lee, S. I. (2017). A unified approach to interpreting model predictions. In Advances in neural information processing systems (pp. 4765-4774).
 
-Sensitivity Analysis and shap Bibliography:
+**Sensitivity Analysis and shap Bibliography**:
 
 - Iooss, B., & Lemaître, P. (2015). [A review on global sensitivity analysis methods](https://core.ac.uk/download/pdf/50535254.pdf). In Uncertainty management in simulation-optimization of complex systems (pp. 101-122). Springer, Boston, MA.
 - Sobol, I. M. (1993). [Sensitivity estimates for nonlinear mathematical models](http://www.andreasaltelli.eu/file/repository/sobol1993.pdf). Mathematical modelling and computational experiments, 1(4), 407-414.
