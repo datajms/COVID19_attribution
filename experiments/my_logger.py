@@ -1,10 +1,14 @@
 import logging
+import os
 
 LOGGER_FILE = '../data_n_figures/all_experiments_results.csv'
 
 from c19_code.problem import VAR_DICT_NO_MSF
 
 if __name__=='__main__':
+    if os.path.isfile(LOGGER_FILE):
+        os.remove(LOGGER_FILE)
+
     ## Init logging file
     init_logger = logging.getLogger()
     init_logger.setLevel(logging.DEBUG)
