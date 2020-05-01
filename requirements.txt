@@ -1,5 +1,22 @@
 jupyter
 pandas
 matplotlib
+psutil
+plotly
 
 SALib
+
+# shapley-effects should be installed by cloning the repo https://gitlab.com/CEMRACS17/shapley-effects.git
+# Req for shapley-effects
+openturns
+scipy
+scikit-learn
+cython
+Cython
+setuptools>=41.0.0
+tensorflow-probability==0.9.0
+gast==0.2.2
+gpflow
+# 'git+https://github.com/scikit-garden/scikit-garden'
+
+shap

@@ -1,7 +1,7 @@
 # Manual exclusions
 c19_code/french_to_english.py
 notebooks/
-
+*.DS_Store
 
 
 # Byte-compiled / optimized / DLL files
