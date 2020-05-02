@@ -2,7 +2,7 @@
 
 Python experiments on **global sensitivity and variable importances methods** (Sobol Indices, Shapley Effects and shap) on the **French Covid-19 patient orientation** algorithm.
 
-Blog article for context and discussion: [Breaking down factors of Covid-19 orientation algorithm by importance](https://datajms.com/post/covid_variable_importance_shapley/).
+Blog article for context and discussion: [Breaking down factors of Covid-19 orientation algorithm by importance](https://datajms.com/post/covid_variable_importances_shapley/).
 
 
 ### Quick start
@@ -31,7 +31,7 @@ You can rebuild figures from the csv data:
 ```bash
 python build_figures.py
 ```
-Here are the results! Details in the [blog post](https://datajms.com/post/covid_variable_importance_shapley/).
+Here are the results! Details in the [blog post](https://datajms.com/post/covid_variable_importances_shapley/).
 
 ![](data_n_figures/results_importance.png)
 
